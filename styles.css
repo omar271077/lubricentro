@@ -1,0 +1,80 @@
+/* styles.css */
+
+/* Estilo personalizado para el navbar */
+.navbar-brand {
+    
+    
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .navbar-nav .nav-link {
+    background-color: burlywood;
+    font-size: 18px;
+    margin-right: 15px;
+    color: #555;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #007bff;
+  }
+  
+  /* Estilos adicionales para la página */
+  /*  .container mt-4 {
+    /* Agrega estilos personalizados para el contenido de la página si es necesario */
+  
+  
+  /* Otros estilos específicos para tu página */
+
+  /* Estilo para el artículo */
+article {
+    
+    margin-bottom: 20px;
+  }
+  section{
+    display: flex;
+  }
+  article h2 {
+    color: #007bff;
+    margin-bottom: 15px; /* Nuevo margen inferior para el título */
+  }
+  
+  article p {
+    line-height: 1.6;
+  }
+  
+  /* Estilo para la imagen dentro del artículo */
+  article img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  article div {
+    max-width: 600px; /* Ancho máximo para el texto */
+  }
+  /* Estilo para el enlace dentro del artículo */
+  article a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  article a:hover {
+    text-decoration: underline;
+  }
+  @media (max-width: 600px){
+    nav{
+        background: black;
+        flex-direction: column;
+    }
+    .nav-boton{
+        display: inline-block;
+    }
+    
+
+}
+.nav-enlace{
+    margin: 10px 0;
+}
+ 
